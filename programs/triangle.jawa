@@ -1,0 +1,23 @@
+#! ../jawa
+10 #\n
+35 #digit
+10 #cols
+10 #row
+1
+
+start
+draw 3 #do cols
+box 6
+sub 4
+box 4
+if 16 #new row
+go 9
+
+draw 2
+box 6
+sub 5
+box 5
+add 4
+if 23
+go 9
+end

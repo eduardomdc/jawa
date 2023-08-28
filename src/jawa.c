@@ -21,14 +21,14 @@
 #define PUTOP(op) program[*counter] = op; is_operation = true;
 
 static char* ops[8] = {
-    "END",
-    "START",
-    "ADD",
-    "SUB",
-    "BOX",
-    "GO",
-    "IF",
-    "DRAW"
+    "end",
+    "start",
+    "add",
+    "sub",
+    "box",
+    "go",
+    "if",
+    "draw"
 };
 
 static int start; // program starting index

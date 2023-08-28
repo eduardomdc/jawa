@@ -1,0 +1,13 @@
+#! ../jawa
+1
+33
+128
+start
+box 2
+draw 3
+add 3
+sub 4 #now with commentaries! uhull
+box 4
+if 13
+go 6
+end

@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -o jawa jawa.c
+mv jawa ..
