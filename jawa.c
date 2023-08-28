@@ -121,7 +121,9 @@ int parse_jawa(FILE* fp) {
     uint counter = 1;
     while ( (read = getline(&line, &len, fp)) != -1 ) {
         // read strings split by whitespaced in this line 
-        parse_jawa_line(line, &counter);
+        if (parse_jawa_line(line, &counter) == 1) {
+            return 1;
+        }
     }
     free (line);
     return 0;
