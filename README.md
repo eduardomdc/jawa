@@ -4,7 +4,7 @@
 <img src="icon/icon.png" alt="jawa" width="300"/>
 </p><br>
 Jawa is a minimalistic toy programming language made to make you feel like a little alien
-in a deserted planet hacking away at a droid's internals. It features only 8 operations and the program 
+in a deserted planet chaotically hacking away at a droid's internals. It features only 8 operations and the program 
 memory lives along side data memory. Each line of jawa code is placed in memory and is 
 accessable through it's line number. You can use this to alter data by line number or 
 even the code itself during runtime.
