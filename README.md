@@ -21,3 +21,13 @@ a compiler and to add parallel simultaneous subroutines called "droids".
 | go X   | 5    | Move program pointer to X line.                       |
 | if X   | 6    | If box == 0 move program to X line.                   |
 | draw X | 7    | Prints character encoded by value at X.               |
+
+### How it works
+A jawa program lives on a integer array 1024 numbers long, so jawa code is 
+limited to 1024 lines. Each integer represents a line of code where the first
+3 bits of the 32 bits represent the operation, the remaining 29 bits represent
+the argument X value.
+Also there is the 'box', a buffer where you can hold one value to do operations
+with.
+The program executes the instructions on the current line then moves on to the
+next line, flow control of the program pointer is achieved with 'go' and 'if'.
