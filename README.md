@@ -32,5 +32,5 @@ next line, flow control of the program pointer is achieved with 'go' and 'if'.
 
 ### Code example
 <p align=center>
-<img src="https://i.imgur.com/Qrh9rag.png" alt="jawa" width="500"/>
+<img src="https://i.imgur.com/ES3xyyf.png" alt="jawa" width="500"/>
 </p>
