@@ -1,0 +1,43 @@
+#!../jawa
+
+1
+35 # ascii '#'
+10 # '\n'
+12 # max collumns
+12 # collumns variable
+5  # rows
+
+start # draw sandcrawler body
+    draw 4
+    box 3
+    sub 7 # done one collumn
+    box 7 # check if collumns are done
+    if 18 # if it's done, next row
+    go 11 # not done, go back to drawing
+
+draw 5 # draw new line
+box 3
+sub 8 # rows--
+box 8 # check if rows == 0
+if 33 # sandcrawler body done, go draw wheels
+box 3
+sub 6 # max collumns--
+box 6
+add 7 # collumns = max collumns
+go 11 # draw this new row
+
+32 # space ascii
+79 # 'O' ascii
+4  # amount of spaces
+
+draw 29 # draw sandcrawler wheels
+draw 30
+    draw 29 # loop to add 4 spaces
+    box 3
+    sub 31
+    box 31
+    if 41
+    go 35
+draw 30 # another wheel
+draw 5  # new line
+end

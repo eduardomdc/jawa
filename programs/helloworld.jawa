@@ -1,0 +1,31 @@
+#! ../jawa
+
+72 # H
+101 # e
+108 # l
+108 # l
+111 # o
+44 # ,
+32 # space
+87 # W
+111 # o
+114 # r
+108 # l
+100 # d
+33 # !
+10 #\n
+
+1
+14 # draw 13 lines [3-16]
+8 # add 1 to argument (1000)
+
+start
+draw 3
+box 20
+add 23 # draw x++
+box 18
+sub 19 # lines--
+box 19
+if 31
+go 23
+end

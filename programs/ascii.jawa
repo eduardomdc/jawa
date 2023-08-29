@@ -1,13 +1,13 @@
 #! ../jawa
 1
-33
-128
+33 # printing ascii characters
+94 # from 33 to 126
 start
-box 2
-draw 3
-add 3
-sub 4 #now with commentaries! uhull
-box 4
-if 13
-go 6
+box 2 # put 1 in box
+draw 3 # draw ascii in line 3
+add 3 # line 3 += 1
+sub 4 # line 4 -= 1
+box 4 # put line 4 in box
+if 13 # if line 4 == 0 go to end
+go 6 # else go back to line 6
 end
